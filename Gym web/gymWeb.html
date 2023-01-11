@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>gym website</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Rowdies:wght@700&family=Sofia+Sans+Semi+Condensed:wght@600&display=swap" rel="stylesheet">
+	<style type="text/css">
+		body{
+			background-image: url('gym.jpg');
+			font-family: 'Poppins', sans-serif;
+			font-family: 'Rowdies', cursive;
+			font-family: 'Sofia Sans Semi Condensed', sans-serif;
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+			background-size: 1400px 800px;
+			/*background-repeat: no-repeat;*/
+			color: white;
+		}
+	header{
+
+	}
+	.left{
+		/*border: 2px solid red;*/
+		display: inline-block;
+		position: absolute;
+		left: 30px;
+		top: 15px;
+	}	
+	.midle{
+		/*border: 2px solid green;*/
+		display: block;
+		width: 45%;
+		margin: 20px auto;
+		
+	}
+	.left img{
+		width: 90px;
+		display: inline-block;
+		filter: invert(100%);
+	}
+	.left div{
+		font-size: 17px;
+		text-align: center;
+	}
+	.rit{
+		/*border: 2px solid blue;*/
+		display: inline-block;
+		position: absolute;
+		right: 34px;
+		top: 20px;
+
+	}
+	.navbar{
+		display: inline-block;
+	}
+	.navbar li {
+		display: inline-block;
+		font-size: 20px;
+	}
+	.navbar li a{
+		color: white;
+		padding: 34px 23px;
+		text-decoration: none;
+	}
+	.navbar li a:hover, .navbar li a:active{
+		text-decoration: underline;
+		color: grey;
+	}
+	.btn{
+		margin: 0px 9px;
+		background-color: black;
+		color: white;
+		padding: 4px 14px;
+		border: 2px solid grey;
+		border-radius: 10px;
+		font-size: 15px;
+		font-family: 'Poppins', sans-serif;
+		font-family: 'Rowdies', cursive;
+		font-family: 'Sofia Sans Semi Condensed', sans-serif;
+	}
+	.btn:hover, .btn:active{
+		background-color: grey;
+	}
+	.container{
+		border: 2px solid white;
+		display: inline-block;
+		width: 30%;
+		margin: 30px 390px;
+		padding: 20px 20px;
+		border-radius: 10px;
+	}
+	.form-group input{
+		width: 350px;
+		border-radius: 5px;
+		display: block;
+		margin: 11px auto;
+		text-align: center;
+		border: 2px solid black;
+		padding: 5px;
+		font-size: 12px;
+		font-family: 'Poppins', sans-serif;
+		font-family: 'Rowdies', cursive;
+		font-family: 'Sofia Sans Semi Condensed', sans-serif;
+	}
+	.container button{
+		display: block;
+		width: 70%;
+		margin: 15px auto;
+
+	}
+	h1{
+		text-align: center;
+	}
+	#about{
+		margin: 500px 30px;
+	}
+
+	</style>
+</head>
+<body>
+	<header>
+		<div class="left">
+			<img src="gymlogo.jpg">
+			<div>itachi's club</div>
+		</div>
+		<div class="midle">
+			<ul class="navbar">
+				<li><a href="#">Home</a></li>
+				<li><a href="#about">About Us</a></li>
+				<li><a href="#">Gallery</a></li>
+				<li><a href="#">Our plans</a></li>
+			</ul>
+		</div>
+		<div class="rit">
+			<button class="btn">Call maadi</button>
+		<button class="btn">Email maadi</button>
+		</div>
+	</header>
+	<div class="container">
+		<h1>join now</h1>
+		<form action="#">
+			<div class="form-group">
+				<input type="text" name="uname" placeholder="Enter your name" autofocus>
+			</div>
+			<div class="form-group">
+				<input type="text" name="age" placeholder="Enter your Age">
+			</div>
+			<div class="form-group">
+				<input type="text" name="loca" placeholder="Enter your Locality" >
+			</div>
+			<div class="form-group">
+				<input type="text" name="gender" placeholder="Enter your Gender">
+			</div>
+			<div class="form-group">
+				<input type="number" name="weight" placeholder="Enter your weight">
+			</div>
+			<div class="form-group">
+				<input type="text" name="mob" placeholder="Enter your Phone number">
+			</div>
+			<div class="form-group">
+				<input type="Email" name="mail" placeholder="Enter your Email">
+			</div>
+			<div>
+				<h5>Select a plan that souitable for you</h5>
+				<select name="plans">
+					<option value="3 month">3 month</option>
+					<option value="6 month">6 month</option>
+					<option value="12 month">12 month</option>
+				</select>
+			</div>
+			<button class="btn">submit</button>
+			
+		</form>
+	</div>
+	<figcaption>
+		<div id="about">
+			<h5>About Us</h5>
+			<p>No matter your age, it is important to take part in sport and fitness activities on a regular basis. Of course, it becomes more important to stay active in our older years in order to stay fit and healthy.
+
+The NHS reports that a lot of adults over the age of 65 spend around 10 hours a day either sitting or laying down. This lack of activity is causing serious health problems for many older people. A lack of activity can cause reduced mobility, leading to aches and pains when doing simple things such as walking to the shops. On the other hand, people who remain active have a lower risk of heart disease, strokes, type 2 diabetes, and dementia.
+
+In today’s article, we will be firstly looking at the official sport and fitness guidelines from the NHS. Later, we’ll list our top 7 sport and fitness activities for older people.</p>
+		</div>
+	</figcaption>
+	
+</body>
+</html>
